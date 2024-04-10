@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Roboto');
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  
+a {
+  text-decoration: none;
+}
+
+.card h3 {
+  padding-left: 20px; /* Assurez-vous que cela correspond aux autres cartes */
+  margin-bottom: 0; /* Si les autres cartes n'ont pas de marge, mettez cela à 0 */
+  display: flex;
+  align-items: center; /* Centre verticalement le contenu dans la carte */
+  height: 100%; /* Assurez-vous que la hauteur est suffisante pour permettre l'alignement */
+}
+
+/* Si le titre "Capital" a une classe spécifique ou une id différente, vous pouvez le cibler directement */
+/* Remplacez .specific-class avec la classe ou l'id du titre "Capital" */
+.specific-class {
+  padding-left: 20px; /* Assurez-vous que cela correspond aux autres cartes */
+  margin-bottom: 0; /* Ajustez la marge inférieure si nécessaire */
+}
+
+
